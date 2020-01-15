@@ -1,2 +1,2 @@
-# weatherApp
-Live weather web app
+# Weather
+Repository for an upcoming Hackathon
