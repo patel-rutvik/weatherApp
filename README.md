@@ -28,5 +28,5 @@ This application supports the following weather data:
     * Mist/Fog
     * Hail
 
-After hitting the **search** button, the weather data should be update, as shown below:
+After hitting the **search** button, the weather data should be updated, as shown below:
 ![alt text](img/data.png)
