@@ -68,14 +68,14 @@ input[type="text"] {
 	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
 	background-color:#ffffff;
 	border-radius:6px;
-	border:1px solid #dcdcdc;
+	border:2px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
 	color:#666666;
-	font-family:Courier New;
+	font-family:Arial;
 	font-size:12px;
 	font-weight:bold;
-	padding:6px 10px;
+	padding:10px 10px;
 	text-decoration:none;
 }
 .button:hover {
