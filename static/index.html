@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="css/owfont-regular.min.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
 
 </head>
 <body>
@@ -23,6 +24,7 @@
                 <h1 id="cityBar">
                     <div id="title" class="center-block text-center">Weather</div>
                     <input id="cityInput" type="text" placeholder="Enter a city..."></input>
+                    <button onclick="getWeather()" id="myBtn">Try it</button>
                 </h1>
             </div>
             <div class="col-sm-2"></div>
@@ -69,7 +71,6 @@
 </div>
 </body>
 <!--
-<script type="text/javascript" src="js/scripts.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr3o307hojPIrs5ph16urE3l0YpjhZzc0&callback=initMap">
 </script>
