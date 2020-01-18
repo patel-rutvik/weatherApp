@@ -6,9 +6,7 @@ function getWeather() {
     $.getJSON(apiCall, updateData);
 }
 
-// Min, max, temp, sunrise, sunset, feels like, lat, lon
 function updateData(weatherData) {
-    
     let icon = weatherData.weather[0].icon;
     let min = Math.round(10*(weatherData.main.temp_min - 273.15))/10;
     let max = Math.round(10*(weatherData.main.temp_max - 273.15))/10;
@@ -36,7 +34,8 @@ function updateData(weatherData) {
     document.getElementById("sunset").textContent = formatTime(sunset) + " UTC";
     document.getElementById("longitude").textContent = lon;
     document.getElementById("latitude").textContent = lat;
-    //document.getElementById("weatherIcon").className = "owf owf-5x owf-" + icon;
+    let iconurl = 'http://api.openweathermap.org/img/w/' + icon + '.png';
+    $('#weatherIcon').attr('src', iconurl);
 }
 
 function capitalizeFirstLetter(string) {
