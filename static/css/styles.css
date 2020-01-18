@@ -1,0 +1,85 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#cityBar {
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+#title{
+    font-size: 14px;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#cityInput{
+    height: 30px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    border: transparent;
+    background-color: #F9F9F9;
+    /*background-image: linear-gradient(197deg, #FFECF5 0%, #A5BBFF 100%);*/
+    /*box-shadow: inset 0 1px 53px 2px rgba(143, 143, 143, 0.50);*/
+}
+
+.autocomplete-suggestions {
+    border: transparent;
+    background-color: #F9F9F9;
+    color: #7F7F7F;
+    overflow: auto;
+    margin-top: -2px;
+}
+
+.autocomplete-suggestion {
+    padding: 10px 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.autocomplete-selected {
+    background-color: white;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: bold;
+    color: black;
+}
+
+#weatherInfo{
+    background-color: white;
+    height: 100vh;
+}
+
+.title{
+    font-weight: bold;
+    padding-right: 10px;
+}
+#weather{
+    font-size: 45px;
+}
+#description{
+    text-transform:capitalize;
+}
+#weatherIcon{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#map{
+    background-color: #A5BBFF;
+    height: 100vh;
+}
