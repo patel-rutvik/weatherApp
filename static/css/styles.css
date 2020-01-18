@@ -19,7 +19,7 @@ body {
 
 #cityInput{
     height: 20px;
-    width: 60%;
+    width: 70%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -74,7 +74,8 @@ input[type="text"] {
     padding-right: 10px;
 }
 #weather{
-    font-size: 50px;
+    font-size: 40px;
+
 }
 #description{
     text-transform:capitalize;
