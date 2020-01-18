@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Weather</title>
+    <title>Live Weather</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-autocomplete/1.0.7/jquery.auto-complete.css" />
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
@@ -14,9 +14,9 @@
 
 </head>
 <body>
-<div id="container">
+<div id="container" style="text-align: left;">
 
-    <div id="weatherInfo" class="col-sm-5">
+    <div id="weatherInfo">
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
@@ -34,8 +34,8 @@
                 <div id="weather" class="text-center">-°</div>
                 <br>
 
-                <div><span class="title">Min:</span><span id="minTemp"></span></div>
-                <div><span class="title">Max:</span><span id="maxTemp"></span></div>
+                <div><span class="title">Minimum Temp:</span><span id="minTemp"></span></div>
+                <div><span class="title">Maximum Temp:</span><span id="maxTemp"></span></div>
                 <br>
 
                 <div><span class="title">Wind Speed:</span><span id="windSpeed"></span></div>
@@ -56,20 +56,22 @@
 
                 <div class="row center-block text-center" >
                     <i id="weatherIcon"></i><br>
-                    <div id="description" class="text-center">Loading</div>
+                    <div id="description" class="text-center">Loading...</div>
                 </div>
             </div>
             <div class="col-sm-2"></div>
 
         </div>
     </div>
-    <div id="map" class="col-sm-7"></div>
+    <!--<div id="map" class="col-sm-7"></div>-->
 
 
 </div>
 </body>
+<!--
 <script type="text/javascript" src="js/scripts.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr3o307hojPIrs5ph16urE3l0YpjhZzc0&callback=initMap">
 </script>
+-->
 </html>
