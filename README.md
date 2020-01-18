@@ -1,5 +1,5 @@
 # Weather
-A live weather app built using [OpenWeatherAPI](https://openweathermap.org/api).
+A live weather app built using HTML, CSS, Javascript, and [OpenWeatherAPI](https://openweathermap.org/api).
 
 ## Searching
 This application supports searching for specific city, anywhere in the world. Type the city you would like to search for:
