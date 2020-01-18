@@ -1,2 +1,2 @@
 # Weather
-A live weather app
+A live weather web app
