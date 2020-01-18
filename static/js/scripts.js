@@ -53,4 +53,5 @@ function formatTime(unixTimestamp){
     var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
 
     return formattedTime;
+    
 }
