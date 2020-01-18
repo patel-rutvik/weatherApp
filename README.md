@@ -1,2 +1,2 @@
 # Weather
-A live weather web app
+A live weather app built using [OpenWeatherAPI](https://openweathermap.org/api).
